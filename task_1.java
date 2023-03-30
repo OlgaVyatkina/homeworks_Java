@@ -17,8 +17,8 @@ System.out.println("Введите первое число: ");
 int a = scanner.nextInt();
 System.out.println("Введите второе число: ");
 int b = scanner.nextInt();
-int [] arr = new int[10];
-for (int i = 1; i < 10; i++) {
+int [] arr = new int[1000];
+for (int i = 1; i < 1000; i++) {
   arr[i]=i*i*i;
   System.out.println(arr[i]);
 } 
