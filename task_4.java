@@ -6,7 +6,7 @@
 public class task_4 {
     public static void main(String[] args) {
 
-        System.out.println("\n\nЗадано выражение: 2? + ?5 = 69. Восстановить выражение до верного равенства.");
+        System.out.println("Задано выражение: 2? + ?5 = 69. Восстановить выражение до верного равенства.");
         int count = 0;
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
@@ -18,7 +18,7 @@ public class task_4 {
         }
         System.out.println("\n");
         if (count == 0) {
-            System.out.println("Решений нет\n");
+            System.out.println("Решений нет");
         }
 
     }    

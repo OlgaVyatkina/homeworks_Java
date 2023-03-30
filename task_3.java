@@ -19,7 +19,7 @@ System.out.println(a - b);
 else if (operation == '*')
 System.out.println(a * b);
 else if (operation == '/') 
-    if (b==0) System.out.println("На ноль делить нельзя!");
+    if (b==0) System.out.println("На ноль делить нельзя!!!");
     else System.out.println(a / b);
 else System.out.println("Неверная операция");
 scanner.close();

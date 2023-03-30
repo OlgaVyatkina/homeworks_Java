@@ -22,6 +22,7 @@ for (int i = 1; i < 10; i++) {
   arr[i]=i*i*i;
   System.out.println(arr[i]);
 } 
+
 System.out.println("Куб первого числа равен " + arr[a]);
 System.out.println("Куб второго числа равен " + arr[b]);
 scanner.close();
