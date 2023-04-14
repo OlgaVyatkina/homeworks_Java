@@ -8,19 +8,13 @@ import java.util.Arrays;
 import java.util.Deque;
     
  public class task_1 {   
-     public static boolean checkOn(Deque<Integer> deque) {
+     public static void checkOn(Deque<Integer> deque) {
         Boolean flag = true;
-        int len = deque.size() / 2;
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < deque.size() / 2; i++) {
           if (deque.pollFirst() != deque.pollLast())
             flag = false;
-    
         }
-        if (flag)
-          System.out.println("yes");
-        else
-          System.out.println("no");
-        return false;
+        System.out.println(flag ? "yes" : "no");   
       }
     
       public static void main(String[] args) {
